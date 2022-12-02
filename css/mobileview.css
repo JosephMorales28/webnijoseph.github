@@ -1,0 +1,107 @@
+@media (max-width:500px){
+}
+@media(orientation:portrait){
+    #header{
+        font-family: Roboto, sans-serif;
+        padding: 2rem;
+        font-size: 2.2rem;
+        text-align: center;
+        position: relative;       
+    }
+    #header::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 20px 0 20px;
+        border-color: var(--primarycolor) transparent transparent transparent;
+        left: 50%;
+        transform: translateX(-50%) translateY(100%);
+      }
+    #position{
+        font-size: 1rem;
+        margin:-2px;
+        font-family: Roboto, sans-serif;
+    }
+    #cv_btn{
+        font-family: Roboto, sans-serif;
+        font-size: 1rem;
+        padding: 5px;
+        display: inline-block;       
+    }
+    #about{
+        background-color:var(--secondarycolor);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding:1.5rem;
+        text-align: center;
+        color: var(--primarycolor);
+    }
+    #about h1{
+        color: var(--primarycolor);
+    }
+    #card{
+        display:grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        width:300px;
+        background-color:var(--tertiarycolor);
+        border: 0px solid transparent;
+        border-radius: 10px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+
+    }
+    #card_profile{
+        border: 0px solid transparent;
+        border-top-left-radius:10px;
+        border-top-right-radius: 10px;
+        margin:auto;
+    }
+    #card_profile_photo img{
+        width:150px;
+        height:150px;
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        padding:1.5rem;
+        object-fit: fill;
+    }
+    #card_profile_info{
+        padding: 30px;
+        float: left;
+        margin-top:-50px;
+    }
+    #card_profile_info h1{
+        font-weight: 200;
+        text-align: left;
+    }
+    #card_profile_info p{
+        float:left;
+        text-align: left;
+        margin-top: -15px;
+    }
+    #card_profile_info h6{
+        font-size: 15px;
+        font-weight: thin;
+        text-align: left;
+        color: #000000;
+        margin-top: -20px;
+    }
+    #card_btn p{
+        text-align: left;
+        margin-top: -5px;
+        color:#fff38c;
+        background-color:var(--primarycolor);
+        display: inline-block;
+        padding: 10px;
+        border: 0px solid transparent;
+        border-radius: 5px;
+    }
+    #portfolio{
+        background-color:var(--primarycolor);
+        margin-left: -8px;
+        margin-right: -8px;
+        padding:5rem;
+        text-align: center;
+    }
+}

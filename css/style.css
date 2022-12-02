@@ -1,0 +1,131 @@
+/*************************************/
+/***this website css is designed by***/
+/******Joseph Anthony V.Morales******/
+/*******on September 29, 2022*******/
+/*************************************/
+:root{
+    --primarycolor:#06283d;
+    --secondarycolor:#d8d8d8;
+    --tertiarycolor:#ffff;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Roboto, sans-serif;
+    color:var(--secondarycolor);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('font/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+span{
+    color:#fff38c;
+}
+#header{
+    margin: -8px -8px 0px -8px;
+    background-color:var(--primarycolor);
+    padding: 10rem;
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+}
+#header::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 40px 0 40px;
+    border-color: var(--primarycolor) transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+  }
+#position{
+    font-size: .5em;
+    margin:-2px;
+}
+#cv_btn{
+    text-align: center;
+    background-color:var(--secondarycolor);
+    color:var(--primarycolor);
+    font-size: .45em;
+    padding: 10px;
+    display: inline-block;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    margin-top:5px;
+}
+#about{
+    background-color:var(--secondarycolor);
+    margin-left: -8px;
+    margin-right: -8px;
+    padding:5rem;
+    text-align: center;
+    color: var(--primarycolor);
+}
+#about h1{
+    color: var(--primarycolor);
+}
+#card{
+    margin: auto;
+    background-color:var(--tertiarycolor);
+    border: 0px transparent;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 800px;
+}
+#card_profile{
+    border: 0px solid transparent;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+}
+#card_profile_photo img{
+    width:250px;
+    height: 250px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    margin:0px;
+    padding:2.5rem;
+    float:left;
+    object-fit: fill;
+}
+#card_profile_info{
+    display: grid;
+    margin-top: -10px;
+    padding: 20px;
+}
+#card_profile_info h1{
+    font-weight: thin;
+    text-align: left;
+}
+#card_profile_info p{
+    float:left;
+    text-align: left;
+    margin-top: -35px;
+}
+#card_profile_info h6{
+    font-size: 15px;
+    font-weight:200;
+    text-align: left;
+    color: #000000;
+    margin-top: -35px;
+}
+#card_btn p{
+    margin-top: -15px;
+    color:#fff38c;
+    background-color:var(--primarycolor);
+    display: inline-block;
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 5px;
+    text-align: left;
+}
+#portfolio{
+    background-color:var(--primarycolor);
+    margin-left: -8px;
+    margin-right: -8px;
+    padding:5rem;
+    text-align: center;
+}
