@@ -1,56 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-PH">
 <head>
+    <title>Joseph Web Design and Graphics </title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon2.webp">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="canonical" href="https://josephmorales.infinity.com"/>
     <meta charset="UTF-8">
-    <meta property="og: title" content="WebniJoseph">
-    <meta property="og:image" content="icons8-j-16.png">
+    <meta property="og:title" content="Joseph Web Design and Graphics: This site contains full of portfolios / projects like web design graphic design posters and more."/>
+    <meta property="og:url" content="https://www.josephmorales.infinityfreeapp.com"/>
+    <meta property="og:type" content="website"/>
+    <meta name="description" content="I'll sho you my ideas and knowledge in photoshop and web design / web developer to become professional"/>
+    <meta property="og:locale" content="en-PH"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP,Photoshop, Ideas">
     <meta name="author" content="Joseph Morales">
-    <meta name="description" content="Welcome to my website portfolio.">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type ="images/x-icon" href="images/icons8-j-16.png"> <title>WebniJoseph</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mobileview.css">
-    <!--<link rel="icon" href="data:,">  if you are using live server dont erase this until you have no fav icon it display 404 error fav ico on your browser console-->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><!--if you ae using live server and you add font face in your site and run at browser, in console browser youwill have an error 404 font not found -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet"><!--another need this font url s-->
+    <script type="text/javascript" defer src="javascript/main.js"></script>
 </head>
 <body>
-<!---    <header>
-        <h1>
-            this is the :is() pseudo-class 
-        </h1>
-    </header>
---->
-    <div id="header">
-            Joseph <span>Morales</span>
-            <div id="position">Junior Coder | Graphic Artist</div>
-            <div id="cv_btn">Download CV</div>
-    </div>
-    <div id="about">
-         <h1>About Me</h1>
-         
-         <div id="card">
-            <div id="card_profile">
-                 <div id="card_profile_photo"><img src="images/profile.jpg" alt="this is me" loading ="lazy"></div>
-            </div>
-            <div id="card_profile_info">
-                <h1>Joseph Morales</h1>
-                <h6>@realJoseph28</h6>
-                <p>I'm Joseph from Manila, Philippines. Graduate from University of the East-Manila. 
-                   I'm a Junior coder and a Graphic Designer. 
-                   I love to make a web design using html5, css3, javascript and many more programming languages.
-                   My other hobbies are drawing, graphic design, sculpting clay, creating video editing.</p>
-                <div id="card_btn"><p>Download CV</p></div>  
+    <navigation>
+        <!--<img src="images/favicon2 copy .webp" alt="image logo"/>  sample only-->
+        <img src="images/favicon2 copy 2.webp" alt="image logo" loading="eager"/>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+       </ul>
+    </navigation>
+    <main>
+        <div id="nav">
+            <div id="nav-content">
+               Hi I'm <span>Joseph</span>,Welcome to my website I'm a Web Developer and a Graphic Designer. I'm from Manila, Philippines
+               <img src="images/myself copy.webp" alt="myself" loading="eager" fetchpriority="high"/>
             </div>
         </div>
-        
-    </div>
-    <div id="portfolio">
-        portfolio
-    </div>
-    <script rel="text/javascript" src="javascript/script.js">
-    </script>
+    </main>
+    <content id="about">
+        <div id="content">
+            <h1>About me</h1>
+            <div class="content">
+                    <p id="demo">
+                    </p>
+            </div>
+            <br/>
+            <div class="button">
+                 <button class="behance">Behance</button> <button class ="github">GitHub</button> <button class="hire">Hire Me</button>
+            </div>
+        </div>
+    </content>
+    <section id="portfolio">
+        <div id="section">
+            <h1>My Web Design, Graphic Design Porfolio</h1>
+            <div class="gallery">
+                <img src="images/smp-lebron poster copy2.webp" alt="smp-lebron-poster-copy" loading="eager"/>
+                <img src="images/smp lebron 40k colored2.webp" alt="smp-lebron-40k-colored" loading="eager"/>
+                <img src="images/smp- kyrie-irving-poster-copy2.webp" alt="smp-kyrie-irving-poster-copy2" loading="eager"/>
+                <img src="images/smp- roasted chicken copy2.webp" alt="smp-roasted-chicken-copy" loading="eager"/>
+                <img src="images/smp-motor2.webp" alt="smp-motor" loading="eager"/>
+                <img src="images/smp-pizza copy2.webp" alt="smp-pizza" loading="eager" fetchpriority="low"/>
+                <img src="images/smp-jayson tatum poster copy2.webp" alt="smp-jayson" loading="eager"fetchpriority="low"/>
+                <img src="images/smp-kawhi leonard poster copy2.webp" alt="smp-kawhi" loading="eager" fetchpriority="low"/>
+            </div>
+        </div>
+    </section>
+    <footer>
+        hello world
+    </footer>
 </body>
 </html>
