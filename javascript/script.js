@@ -5,4 +5,4 @@ document.getElementById("demo").innerHTML=statement;
 
 let coder;
 
-coder="Joseph Anthony V. Morales"
+coder="Joseph Anthony V. Morales";
